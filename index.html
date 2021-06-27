@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS GRID</title>
+  <style>
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 20% 20% 10% 20%;
+    }
+
+
+   .wrapper > div {
+     background:#eee;
+     padding:1em;
+     text-align:left;
+   }
+   .wrapper > div:nth-child(odd){
+     background:#ddd;
+   }
+   .first{
+     margin:2px;
+   }
+   .second{
+     margin:2px;
+   }
+   .third{
+     margin:2px;
+   }
+   .fourth{
+     margin:2px;
+   }
+   .fifth{
+     margin:2px;
+   }
+   .six{
+     margin:2px;
+   }
+  </style>
+</head>
+<body>
+  <header>
+  </header>
+  <div class="wrapper">
+    <div class = "first">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+    </div>
+       <div class = "second">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+         enim ad minim  fugiat nulla
+         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum.
+       </div>
+       <div class = "third">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore eoccaecat
+         cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+          id est laborum.
+    </div>
+         <div class = "fourth">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. est laborum.
+    </div>
+    <div class = " fifth">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud. Excepteur sint
+       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div class = "sixth">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          pidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+           </div>
+         </div>
+          <footer><p class = "footer">Copyright 2021 This is my site</P>
+          </footer>
+</body>
+</html>
