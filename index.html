@@ -3,6 +3,45 @@
 <head>
   <title>CSS GRID</title>
   <style>
+  /* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 80%;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 80%;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 80%;
+    }
+}
     .wrapper{
       display:grid;
       grid-gap:20px;
