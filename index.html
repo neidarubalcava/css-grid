@@ -42,6 +42,45 @@
       grid-template-columns: 80%;
     }
 }
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 80%;
+    }
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 80%;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+    .wrapper{
+      display:grid;
+      grid-gap:20px;
+      grid-template-columns: 80%;
+    }
+}
     .wrapper{
       display:grid;
       grid-gap:20px;
